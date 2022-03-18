@@ -1,0 +1,18 @@
+Esercizio  #3
+1) obbiettivo:
+
+Scrivere un programma, implementando una funzione che esegua
+l’ordinamento di un array il cui tipo è scelto da voi
+
+ -SOTTOPROBLEMA 1:
+    -chiedere in input dei numeri ed aggiungerli all'array
+
+    VARIABILI:
+    array[]
+
+    PSEUDOCODICE:
+    dichiarare il valore degli elementi degli array
+
+
+
+  -SOTTOPROBLEMA 2

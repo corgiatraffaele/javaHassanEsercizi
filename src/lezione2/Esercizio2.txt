@@ -1,0 +1,44 @@
+Esercizio  #2
+1) obbiettivo:
+
+    - implementare i cicli
+     (for, while, do-while) sommando due numeri per x volte
+      tenendo traccia della somma di questi due numeri
+
+
+   -SOTTOPROBLEMA 1:
+    -chiedere 2 numeri in input (il tipo scelto da voi)
+        - VARIABILI SOTTOPROBLEMA 1
+        - primoNumero (int)
+        - secondoNumero (int)
+        PSEUDOCODICE:
+            -dichiaro la variabile primoNumero;
+            -dichiaro la variabile secondoNumero;
+            -chiedo all'utente di inserire primoNumero;
+            -chiedo all'utente di inserire secondoNumero;
+
+
+    -SOTTOPROBLEMA 2:
+        -Sommare i numeri precedentemente creati
+         - VARIABILI SOTTOPROBLEMA 2:
+            - somma (int)
+         PSEUDOCODICE:
+            -Dichiaro variabile somma inizzializzata a 0(somma->0);
+            - sommo primoNumero e secondoNUmero;
+
+
+
+
+    -SOTTOPROBLEMA 3:
+        -sommare e tenere traccia della somma x volte
+         VARIABILI SOTTOPROBLEMA 3:
+          - numeroIterazioni (int) (se non hard-coded (forzando il valore))
+
+         PSEUDOCODICE:
+         -dichiaro numeroIterazioni inizializzato a 0
+         -itero chiedendo gli input x volte
+         -tenendo traccia della somma;
+
+
+    -SOTTOPROBLEMA 4
+

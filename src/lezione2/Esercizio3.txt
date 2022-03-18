@@ -1,0 +1,21 @@
+Esercizio  #2
+1) obbiettivo:
+    -implementare un programma che dato un array,
+     -ne esegua la media(scrivendo una funzione opportunamente commentata),
+
+
+     SOTTOPROBLEMA 1
+     -dichiarare un array
+        VARIABILE SOTTOPROBLEMA 1
+        int array[];
+        PSEUDOCODICE:
+        dichiarare i valori nell'array
+
+      SOTTOPROBLEMA 2
+      -sommare i valori dell'array
+      VARIABILI:
+      somma= 0;
+      PSEUDOCODICE
+      creare in ciclo che
+      somma + il valore di ogni indice
+      e poi lo divide per la lunghezza dell'array

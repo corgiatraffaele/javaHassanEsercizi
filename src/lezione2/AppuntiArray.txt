@@ -1,0 +1,13 @@
+
+Struttura dati primitiva che contiene oggetti e valori dello stesso tipo
+    Se dichiaro un array doi stringhe non potrò dichirare degli int e viceversa
+    Posso vedere questa struttura dati come una sorta di tabella
+    che noi salviamo dentro allo hype.
+    Si potrà accedere ad ogni elemento (se valido) tramite indice
+
+    è una struttura statica quindi non si potrà camibare la sua dimensione perchè fissa
+
+    Essendo una struttura lineare (con una sola dimensione), di dimensione N dove N sono gli elementi presenti,
+    per accedere ad ogni elemento userò un ciclo FOR utilizzando indice per accedere ad un elemento i-esimo.
+
+
