@@ -1,0 +1,35 @@
+Access modifiers (modificatori di acesso
+Servono a definire il tipo di accesso cge darò al mio metodo o attributi.
+Questo tipo di accesso viene dichairato come prima cosa all'interno della firma/dichiarazione metodi/metodi o variabili
+
+Esempio metodo:
+-  modificatore tipoRitorno nomeMetodo (ListaParametri)
+
+-public void mioMetodo()
+-private String mioMetodoPrivate()
+
+ES variabile:
+    modificatore tipo nomeVariabile;
+    private String nomeM
+    public double tassoInteresse
+
+    Public: l'accesso sarà globale :posso accedere in un qualsiasi punto del programma mediante la mia istanza.
+    ES:
+    public string nome ();
+    (nomeIstanza.nomeVariabile/metodo)
+
+    private l'accesso al mio metodo/variabile sarà locale (posso farlo solo all'interno della mia classe e non ovunque)
+    ES:
+    private string nome();
+    es: nomeIstanza.nomeVar/metodo -> non posso farlo
+
+é buona norma dichiararle come private in modo da non fornire accesso diretto ad esse .
+Per accederci per modificarle e lavorarci utilizzo i metodi :
+Get e Set dichiarandoli per ogni singola variabile dichiarata
+
+per accedere al metodo che midifica set e get ricorro alla mia istanza dell'oggetto creato ovvero
+nomeIstanza.getVariabile();
+
+
+
+
