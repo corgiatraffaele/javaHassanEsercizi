@@ -1,5 +1,7 @@
 package lezione3ClasseOggetti.Es2;
 
+import lezione3ClasseOggetti.Es2.Exception.SaldoNotDisponibileException;
+
 /**
  * Questa classe andrà a rapprensentare gli stati e i compostamenti di un conto corrente studiato e analizzato
  */
@@ -62,7 +64,22 @@ public class ContoCorrente {
      */
 
     public double prelievo(double sommaPrelevare) {
-        //controllo che il saldo sia >= alla somma da prelevare
+
+        try {//flusso che dovrebbe essere eseguito
+            //controllo che il saldo sia >= alla somma da prelevare
+            if (this.saldo < sommaPrelevare)
+                throw new SaldoNotDisponibileException();
+
+            this.saldo = this.saldo - sommaPrelevare;
+            return sommaPrelevare;
+
+        } catch (SaldoNotDisponibileException ex) {
+            System.out.println(ex.getMessage());
+        }
+        return 0.0;
+    }
+
+        /*/controllo che il saldo sia >= alla somma da prelevare
         if (this.saldo >= sommaPrelevare) {
             //se vero posso prelevare
             this.saldo = this.saldo - sommaPrelevare;
@@ -73,13 +90,13 @@ public class ContoCorrente {
             System.out.println("SEI POVERO NON PUOI PRELEVAR PIÙ DI QUANTO HAI.SVEGLIATI!");
             return Double.NEGATIVE_INFINITY;
             //per farlo uscire altrimenti non funziona perchè il metodo vuole double.e mi ritorna -infinito+
+        }*/
 
-        }
-    }
+
 
         /**
          * funzione che si occupa di prelevare una somma di denaro specificata in input
-         * @param sommaDepositata
+         * @param sommaDeposito
          * @return sommaPrelevata
          *
          */

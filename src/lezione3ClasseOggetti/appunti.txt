@@ -31,5 +31,10 @@ per accedere al metodo che midifica set e get ricorro alla mia istanza dell'ogge
 nomeIstanza.getVariabile();
 
 
+ECCEZIONI
+si hanno quando degli eventi anomali
+
+
+
 
 
