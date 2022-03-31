@@ -4,7 +4,7 @@ public class SaldoNotDisponibileException extends Exception{
 
 
     /**
-     *  creo un corstruttore
+     *  creo un costruttore
      */
 
     public SaldoNotDisponibileException(){
