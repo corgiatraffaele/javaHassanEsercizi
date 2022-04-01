@@ -16,13 +16,13 @@ public class Tester {
          * animale.habitat
          *
         */
-
+/*
         System.out.println("l'animale " + animaleUno.getNome() + " è un " + animaleUno.getTipo() + " e vive in " + animaleUno.habitat);
         System.out.println("Il colore è "+ animaleUno.getColorePelo());
 
         /******Habitat******/
 
-        String[] animaliSavana = {"zebra","leone","iena"};
+      /*  String[] animaliSavana = {"zebra","leone","iena"};
 
         Habitat habitatUno = new Habitat("savana",40,30, animaliSavana);
 
@@ -32,7 +32,7 @@ public class Tester {
         System.out.println("la temperatura è di " +habitatUno.getTemperatura() + " gradi");
         System.out.println("l'umidità è del " +habitatUno.getUmidità()+"%");
 
-        //NON son riuscito a stampare gli animali ma solo la posizione di memoria, anche avendo fatto il toString
+        //NON son riuscito a stampare gli animali ma solo la posizione di memoria, anche avendo fatto il toString*/
 
 
     }

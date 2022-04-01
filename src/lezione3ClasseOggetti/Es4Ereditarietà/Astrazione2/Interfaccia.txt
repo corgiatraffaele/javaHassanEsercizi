@@ -1,0 +1,11 @@
+INTERFACCIA
+
+
+Simboleggia una "stipulazioni di contratto", tra programmatore e programma
+A differenza delle classi astratte, le interfacce non hanno:
+ -costruttori
+ -variabili d'istanza
+ -metodi di cui è possibile definire il corpo
+
+ per implementare i metodi di un interfaccia:
+ implements dopo il nome della classe seguito da nome interfaccia

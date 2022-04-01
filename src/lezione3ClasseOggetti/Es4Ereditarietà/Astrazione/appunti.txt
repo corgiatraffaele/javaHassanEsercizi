@@ -1,0 +1,24 @@
+
+Ereditarietà
+
+Super=
+
+Polimorfismo
+
+List<String> stringList = new ArrayList<>();
+
+Astrazione:
+
+è uno dei paradigmi della OOP
+comprende due concetti:
+1classi astratte
+2interfacce
+
+
+serve a nascondere i dettagli implementativi all'utente.Lasciandoli solo capire che cosa andrà a fare il programma e non come
+
+-classi astratte:
+    è una classe con la differenza che non sarà possibile instanziarla e sarà possibile creare metodi astratti all'interno.
+    sono metodi che includono 'abstact' nel metodo e non contengolo il corpo della funzione.
+
+  Esempio:  Non dico come calcolo area e perimetro ma dico solo cosa calcolo ovvero area e perimetro
