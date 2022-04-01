@@ -1,4 +1,4 @@
-package lezione3ClasseOggetti.Es4Ereditarietà.Esercizi;
+package lezione4.Es4Ereditarietà.Esercizi;
 
 public class Studente extends Persona {
     private String classe;

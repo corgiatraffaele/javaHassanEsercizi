@@ -1,4 +1,4 @@
-package lezione3ClasseOggetti.Es4Ereditarietà.Esercizi.Es2;
+package lezione4.Es4Ereditarietà.Esercizi.Es2;
 
 public class Quadrato extends Poligono{
     private double lato1;

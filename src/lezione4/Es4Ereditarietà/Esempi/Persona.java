@@ -1,4 +1,4 @@
-package lezione3ClasseOggetti.Es4Ereditarietà.Esempi;
+package lezione4.Es4Ereditarietà.Esempi;
 
 public class Persona {
     private String nome;

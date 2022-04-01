@@ -1,4 +1,4 @@
-package lezione3ClasseOggetti.Es4Ereditarietà.Astrazione2;
+package lezione4.Es4Ereditarietà.Astrazione2;
 
 public interface MIsurePoligono {
 

@@ -1,4 +1,4 @@
-package lezione3ClasseOggetti.Es4Ereditarietà.Astrazione;
+package lezione4.Es4Ereditarietà.Astrazione;
 
 public class Tester {
     public static void main(String[] args) {

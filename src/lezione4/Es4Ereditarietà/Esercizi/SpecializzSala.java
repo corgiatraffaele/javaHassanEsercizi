@@ -1,4 +1,4 @@
-package lezione3ClasseOggetti.Es4Ereditarietà.Esercizi;
+package lezione4.Es4Ereditarietà.Esercizi;
 
 import java.util.Arrays;
 
