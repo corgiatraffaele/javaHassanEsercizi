@@ -33,4 +33,16 @@ per iterare sui valori utilizzo il metodo values() per ottenere SOLO i valori co
     - for(T v: mappa.values().forEach(v ->{System.out.println(v);}); //ciclo direttamente sui valori
 
 
--Array<list>
+Array<list>
+
+-Gli array di tipo primitivo hanno un problema di staticità:
+    la dimensioni in caso di inserimento/cancellazione varia, per poter riadattare il contenuto dell'array al programma è un lavoraccio.
+
+ -Gli array<list> risolvono questo problema, essendo una struttura dati che contiene sempre elementi omogenei ma con più dinamicità
+ -Implementano la classe AbstractList la quale implementa l'interfaccia List.
+
+ -List<T> nome = new ArrayList<>();
+ .List<String> nomiMacchine = new ArrayList<>();
+
+
+
